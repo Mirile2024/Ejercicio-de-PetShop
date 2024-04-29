@@ -1,0 +1,60 @@
+.top{
+    background: #222222;
+}
+.ofertas{
+    color: #f3f3f3;
+}
+.idioma, .moneda{
+    color: #f3f3f3;
+    background: #222222;
+    border-color: #222222;
+}
+header{
+    background: #F0A83E;
+}
+.menu{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.huella{
+    width: 20px;
+    padding: 25px;
+}
+main .slide1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+div .bowl{
+    width: 100%;
+}
+IMG .patitas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+section .patitas{
+      list-style: none;
+      align-items: center;
+      }
+      img .patitas{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+}
+section .centrado{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+ .footer{
+   background: #3C2313;
+   color: #f3f3f3;
+}
