@@ -1,43 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+/* -----------seccion top-------------- */
 .top{
+    height: 20px;
     background: #222222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 1024px; */
 }
 .ofertas{
     color: #f3f3f3;
+    font-size: 10px;
+    margin-right: 90px;
 }
 .idioma, .moneda{
     color: #f3f3f3;
     background: #222222;
     border-color: #222222;
+    font-size: 10px;
+    margin-left: 63px;
 }
+/* --------------------seccion nav--------------- */
 header{
     background: #F0A83E;
+    /* width: 1024px; */
+    height: 63px;
+    align-content: space-around;
+
 }
-.menu{
+.nav {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 44px;  
+}
+
+ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.hamburguesa{
+    color: #FFFFFF;
+    width: 20px;
+    height: 15.31px;
+    display: none;
+}
+.menu {
     list-style: none;
-}
-.menu a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 13px;
 }
 .huella{
-    width: 20px;
     padding: 25px;
+
 }
-main .slide1{
+.logo_nav{
+    margin-left: 35px;
+}
+/* ---------------seccion slide---------------- */
+.contenedor1{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+
+}
+.texto-contenedor{
+    position: relative;
+    left: 648px;
+    top: 237px;
+    z-index: 2;
+}
+
+
+/* main .slide1{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-}
+} */
 div .bowl{
     width: 100%;
 }
-IMG .patitas{
+
+/* IMG .patitas{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-}
+} */
 section .patitas{
       list-style: none;
       align-items: center;
@@ -57,4 +120,23 @@ section .centrado{
  .footer{
    background: #3C2313;
    color: #f3f3f3;
+}
+/* ------------------responsivo--------------- */
+@media (max-width: 800px){
+ .top{
+    display: none;
+}
+.menu{
+    display: none;
+    
+}
+/* -------se centra el logo */
+.logo{
+    display: flex;
+    justify-content: center;
+}
+/* -------------icono de 3 lineas--------- */
+.hamburguesa{
+    display: block;
+}
 }
