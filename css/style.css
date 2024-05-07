@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 1024px; */
+    width: 1024px;
 }
 .ofertas{
     color: #f3f3f3;
@@ -28,7 +28,7 @@
 /* --------------------seccion nav--------------- */
 header{
     background: #F0A83E;
-    /* width: 1024px; */
+    width: 1024px;
     height: 63px;
     align-content: space-around;
 
@@ -65,24 +65,56 @@ ul {
 .logo_nav{
     margin-left: 35px;
 }
-/* ---------------seccion slide---------------- */
+/* ---------------seccion slide con z-index---------------- */
 .contenedor1{
-    position: relative;
-    display: flex;
-    flex-direction: row-reverse;
-    background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+    
+    position: absolute;
+    /* display: flex; */
+    width: 1024px;
+    /* flex-direction: row-reverse; */
+    /* background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 409px;
+    z-index: 3;
 }
-.contenedor{
+.contenedor2{
+    width: 1024px;
     position: relative;
-    width: 100%;
-    z-index: 1;
-
-}
-.texto-contenedor{
-    position: relative;
-    left: 648px;
-    top: 237px;
     z-index: 2;
+}
+
+.contenedor{
+    position: absolute;
+    left: 648px;
+    top: 165px;
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+    height: 85px;
+    margin-bottom: 209px;
+    justify-content: center;
+    margin-right: 30px;
+}
+.slide1{
+    color: #3C2313;
+    font-size: 30px;
+    background-color: #FFFFFF;
+}
+.slide2{
+    font-size: 16px;
+    color: #3C2313;
+}
+.comederos{
+    background-color: #F0A83E;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 141px;
+    height: 49px;
+    border: none;
 }
 
 
