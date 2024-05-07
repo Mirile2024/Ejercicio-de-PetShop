@@ -33,6 +33,7 @@ header{
     height: 63px;
     align-content: space-around;
 
+
 }
 .nav {
     gap: 20px;
@@ -152,6 +153,12 @@ ul {
 @media (max-width: 800px){
  .top{
     display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .menu{
     display: none;
