@@ -12,6 +12,7 @@
     justify-content: space-around;
     align-items: center;
     width: 1024px;
+    
 }
 .ofertas{
     color: #f3f3f3;
@@ -127,26 +128,26 @@ ul {
     margin-right: auto;
     width: 30%;
 } */
-section .patitas{
+/* section .patitas{
       list-style: none;
       align-items: center;
-      }
-      img .patitas{
+      } */
+      /* img .patitas{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 30%;
-}
-section .centrado{
+} */
+/* section .centrado{
    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-}
- .footer{
+} */
+ /* .footer{
    background: #3C2313;
    color: #f3f3f3;
-}
+} */
 /* ------------------responsivo--------------- */
 @media (max-width: 800px){
  .top{
