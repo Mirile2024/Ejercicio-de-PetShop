@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1024px;
+    width: 100%;
     
 }
 .ofertas{
@@ -29,24 +29,25 @@
 /* --------------------seccion nav--------------- */
 header{
     background: #F0A83E;
-    width: 1024px;
-    height: 63px;
-    align-content: space-around;
-
+    width: 100%;
 
 }
 .nav {
     gap: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-right: 44px;  
+    justify-content: space-between;
+    margin-right: 44px; 
+    height: 63px; 
 }
+.logo_nav{
+    margin-left: 35px;
+}
+
 
 ul {
     text-decoration: none;
-    display: flex;
-    justify-content: center;
+    display: inline;
 }
 .hamburguesa{
     color: #FFFFFF;
@@ -64,24 +65,26 @@ ul {
     padding: 25px;
 
 }
-.logo_nav{
-    margin-left: 35px;
-}
 /* ---------------seccion slide con z-index---------------- */
 .contenedor1{
     
-    position: absolute;
+    position: relative;
     display: flex;
-    width: 1024px;
+    /* width: 100%; */
     height: 409px;
-    z-index: 3;
+    z-index: 2;
+    /* width: 1024px; */
 }
-.contenedor2{
+.bowl{
+    
+    background-size: contain;
+}
+/* .contenedor2{
     width: 1024px;
     position: relative;
     z-index: 2;
     display: flex;
-}
+} */
 
 .contenedor{
     position: absolute;
@@ -174,16 +177,21 @@ nav {
     display: block;
 }
 /* -----slider con z-index----------------- */
-/* .contenedor1{
-display: flex;
-align-items: center;
-justify-content: space-around;
-flex-flow: column;
-}
-.contenedor{
-    width: 365px;
-    height: 81px;
-    top: 202px;
+.contenedor{    /* -----lo que dice dentro del slide--------- */
     left: 24px;
+}
+.contenedor1{
+display: inline-flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+
+}
+/* .contenedor{
+    display: flex; */
+    /* width: 365px;
+    height: 81px;
+    top: 202px; */
+    /* left: 24px;
 } */
 }
