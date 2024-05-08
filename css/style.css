@@ -69,7 +69,6 @@ ul {
 .contenedor{
     background-image:url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-size: cover; 
     justify-content: end;
     height: 409px;
