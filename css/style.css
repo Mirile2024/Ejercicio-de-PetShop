@@ -85,9 +85,9 @@ ul {
     width: 365px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
     gap: 20px;
-justify-content: center;
+    justify-content: center;
 }
 /* ---todo dentro del bowl */
 .slide1{
