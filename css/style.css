@@ -107,7 +107,41 @@ ul {
     height: 49px;
     border: none;
 }
-/* ------------------------------- */
+/* ----------------imagen patita--------------- */
+.img_pata{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.patitas{
+    list-style: none;
+    text-decoration: none; 
+ 
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+}
+h2{
+    color: #3C2313;
+    font-size: 40px;
+}
+body{
+    background-color: 3C2313;
+}
+.a{
+   color: #666666;
+   font-size: 15px;
+}
+.productos{
+    width: 264px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FBFAF6;
+}
 
 /* main .slide1{
     text-align: center;
