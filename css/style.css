@@ -1,46 +1,65 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-    
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1024px;
+    margin: auto 0px;
+
+}
+
 /* -----------seccion top-------------- */
-.top{
+.top {
+    max-width: 1024px;
+    margin: auto 0px;
     height: 20px;
     background: #222222;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    
+
 }
-.ofertas{
+
+.ofertas {
     color: #f3f3f3;
     font-size: 10px;
     margin-right: 90px;
 }
-.idioma, .moneda{
+
+.idioma,
+.moneda {
     color: #f3f3f3;
     background: #222222;
     border-color: #222222;
     font-size: 10px;
     margin-left: 63px;
 }
+
 /* --------------------seccion nav--------------- */
-header{
+header {
     background: #F0A83E;
     width: 100%;
-
+    max-width: 1024px;
+    margin: auto 0px;
 }
+
 .nav {
+
     gap: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 44px; 
-    height: 63px; 
+    margin-right: 44px;
+    height: 63px;
 }
-.logo_nav{
+
+.logo_nav {
     margin-left: 35px;
 }
 
@@ -49,36 +68,41 @@ ul {
     text-decoration: none;
     display: inline;
 }
-.hamburguesa{
+
+.hamburguesa {
     color: #FFFFFF;
     width: 20px;
     height: 15.31px;
     display: none;
 }
+
 .menu {
     list-style: none;
     text-decoration: none;
     color: #ffffff;
     font-size: 13px;
 }
-.huella{
+
+.huella {
     padding: 25px;
 
 }
+
 /* ---------------seccion slide con z-index---------------- */
-.contenedor{
-    background-image:url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+.contenedor {
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     justify-content: end;
     height: 409px;
     width: 100%;
     display: flex;
-    position: relative; 
+    position: relative;
     gap: 20px;
 
 }
-.slider{
+
+.slider {
     position: absolute;
     top: 165px;
     width: 365px;
@@ -89,17 +113,20 @@ ul {
     justify-content: center;
     text-align: center;
 }
+
 /* ---todo dentro del bowl */
-.slide1{
+.slide1 {
     color: #3C2313;
     font-size: 30px;
     background-color: #FFFFFF;
 }
-.slide2{
+
+.slide2 {
     font-size: 16px;
     color: #3C2313;
 }
-.comederos{
+
+.comederos {
     background-color: #F0A83E;
     font-size: 16px;
     color: #FFFFFF;
@@ -107,102 +134,182 @@ ul {
     height: 49px;
     border: none;
 }
+
 /* ----------------imagen patita--------------- */
-.img_pata{
-    display:flex;
+.img_pata {
+    text-align: center;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
-.patitas{
+
+.patitas {
     list-style: none;
-    text-decoration: none; 
- 
-    display: inline-flex;
+    text-decoration: none;
+    display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
-h2{
+
+h2 {
     color: #3C2313;
     font-size: 40px;
 }
-body{
-    background-color: 3C2313;
-}
-.a{
-   color: #666666;
-   font-size: 15px;
-}
-.productos{
-    width: 264px;
-    height: 312px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: #FBFAF6;
+
+.a {
+    color: #666666;
+    font-size: 15px;
 }
 
-/* main .slide1{
+/* -----------seccion productos------------------ */
+.productos {
+    gap: 20px;
     text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-size: 15px;
+    color: #3C2313;
     font-weight: bold;
-    font-size: 30px;
-} */
 
-/* IMG .patitas{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-} */
-/* section .patitas{
-      list-style: none;
-      align-items: center;
-      } */
-      /* img .patitas{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 30%;
-} */
-/* section .centrado{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-} */
- /* .footer{
-   background: #3C2313;
-   color: #f3f3f3;
-} */
-/* ------------------responsivo--------------- */
-@media (max-width: 800px){
- .top{
-    display: none;
 }
-nav {
+
+.img-productos {
+    background-color: #FBFAF6;
     display: flex;
-    justify-content: space-between;
+}
+
+/* ----------------------------seccion formulario--------- */
+.contactanos {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #3C2313;
+}
+
+input {
+
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 9px;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-
-}
-.menu{
-    display: none;
-    
-}
-/* -------se centra el logo */
-.logo{
-    display: flex;
     justify-content: center;
 }
-/* -------------icono de 3 lineas--------- */
-.hamburguesa{
-    display: block;
+
+.formulario1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 340px;
 }
-/* -----slider igual logre usar el z-index jaja----------------- */
+
+.enviar,
+.reset {
+    background-color: #8A8787;
+    font-size: 16px;
+    width: 30%;
+    height: 34px;
+    border-radius: 15px;
+    border-style: none;
+    color: #FFFFFF;
+
 }
-@media (min-width: 360px){
-    .slider{
+
+.enviar {
+    background-color: #F0A83E;
+
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* <!-- -------seccion footer------ --> */
+.mail{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.topfooter {
+    height: 60px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: ;
+
+}
+
+.img_mail{    
+    width: 10%;
+   
+}
+.titufoo{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.suscripcion{
+    max-width: 349px;
+    margin: auto 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.formsuscripcion{
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 800px) {
+    .top {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .menu {
+        display: none;
+
+    }
+
+    /* -------se centra el logo */
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* -------------icono de 3 lineas--------- */
+    .hamburguesa {
+        display: block;
+    }
+
+
+
+    /* -----slider igual logre usar el z-index jaja----------------- */
+}
+
+@media (min-width: 360px) {
+    .slider {
         position: absolute;
     }
 }

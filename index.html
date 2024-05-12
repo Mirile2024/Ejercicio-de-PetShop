@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css'>
 </head>
 
 <body>
@@ -55,10 +57,9 @@
                 <button class="comederos">COMEDEROS</button>
             </div>
         </section>
-        <!-- ------image patita------------ -->
+        <!-- ------imagen patita------------ -->
         <section class="img_pata">
             <img class="patitas" src="img/patita.png" alt="">
-
             <h2>Productos Destacados</h2>
             <ul class="patitas">
                 <li><a href="#" class="a">Comederos</a></li>
@@ -68,28 +69,59 @@
                 <li><a href="#" class="a">Comida</a></li>
             </ul>
         </section>
+        <!-- /* -----------seccion productos------------------ */ -->
+
         <section class="productos">
-            <div class="churrasquito" >
-            <img src="img/Churrasquito.png" alt="">
-            <p class="text">Juguete Churrasquito</p>
-            <p class="precio">$150</p>
-        </div>
-            <div class="comedero">
-            <img src="img/Comedero.png" alt="">
-            <p class="text">Comedero para perro</p>
-            <p class="precio">$250</p>
-        </div>
-        <div class="Huesito">
-            <img src="img/Huesito juguete.png" alt="">
-            <p class="text">Juguete Huesito</p>
-            <p class="precio">$650</p>
-        </div>
+            <div class="img-prod">
+                <img src="img/Churrasquito.png" alt="">
+                <p class="text">Juguete Churrasquito</p>
+                <p class="precio">$150</p>
+            </div>
+            <div class="img-prod">
+                <img src="img/Comedero.png" alt="">
+                <p class="text">Comedero para perro</p>
+                <p class="precio">$250</p>
+            </div>
+            <div class="img-prod">
+                <img src="img/Huesito juguete.png" alt="">
+                <p class="text">Juguete Huesito</p>
+                <p class="precio">$650</p>
+            </div>
         </section>
-        <section>
-            <img class="centrado" src="img/Formulario.png" alt="">
+        <!-- /* ----------------------------seccion formulario--------- */ -->
+
+        <section class="formulario">
+            <div class="titucontacto">
+                <p class="contactanos">Contáctanos</p>
+            </div>
+            <div class="formulario1">
+                <form action="https://formsubmit.co/mirileas@gmail.com" method="post" enctype="multipart/form-data">
+                    <input type="text" name="nombre" id="nombre" title="Nombre y Apellido" placeholder="Nombre">
+                    <input type="email" name="email" id="email" title="Ingresa tu Correo"
+                        placeholder="Ingresá tu correo electrónico">
+                    <input type="Phone" name="Phone" id="Phone" title="Phone" placeholder="Telfono" required>
+                    <div class="buton">
+                        <div class="botones">
+                            <button class="reset" type="reset">Reset</button>
+                            <button class="enviar" type="submit">Enviar</button>
+                        </div>
+                    </div>
+            </div>
         </section>
     </main>
+    <!-- -----------------seccion footer------ -->
     <footer>
+        <section class="topfooter">
+            <div class="mail">
+                <img class="img_mail" src="img/enviar-correo 1.png" alt="">
+                <p class="titufoo">Suscríbete para más novedades</p>
+            </div>
+            <div class="suscripcion">
+                <input class="formsuscripcion" type="email" name="suscripcion-mail" id="suscripcion-email"
+                    title="Ingresa tu Correo" placeholder="Ingresá tu correo electrónico">
+                <button class="suscribirme">Suscribirme</button>
+            </div>
+        </section>
         <section class="footer">
             <article>
                 <img src="img/Location.png" alt="">
