@@ -178,6 +178,11 @@ h2 {
 
 }
 
+.precio {
+    color: #F0A83E;
+    font-size: 15px;
+}
+
 .img-productos {
     background-color: #FBFAF6;
     display: flex;
@@ -282,7 +287,7 @@ input {
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding-top: 10px;
+    /* padding-top: 5px; */
 }
 
 .suscribir {
@@ -294,85 +299,86 @@ input {
 
 .email {
     background-color: #FFFFFF;
-    display: flex;
     border-radius: 15px;
-    justify-content: center;
     padding: 10px;
+    color: black;
 }
 
 .suscribir1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
 .suscribirme {
-    display: flex;
     background-color: #3C2313;
     border-radius: 15px;
     border-style: none;
-    display: flex;
-    min-width: 40px;
-    min-height: 11px;
+   width: 70px;
+    height: 34px;
     font-size: 9px;
-    justify-content: center;
-    align-items: center;
+    color: #FFFFFF;
+    
 
 }
 
-/* .mail{
-    display: flex; */
-/* justify-content: flex-start; */
-/* align-items: center;
-} */
-/* .topfooter {
-    min-width: 349px;
-    margin: auto 0px;
-    flex-wrap: wrap;
-    height: 60px;
-    background-color: #F0A83E;
-    display: flex;
-    justify-content:space-between ;
-gap: 20px;
-} */
-
-/* .img_mail{    
-    width: 10%;
-   
-} */
-/* .titufoo{
-    color: #FFFFFF;
-    font-size: 20px;
-} */
-/* .suscripcion{
-    max-width: 349px;
-    margin: auto 0px;
-    display: inline-flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 10px;
-
-} */
-/* .formsuscripcion{ */
-/* display: flex; */
-/* align-items: center; */
-/* max-height: 34px;
-    background-color: #FFFFFF;
-} */
-/* .suscribirme{
+/* -----------------seccion footer---------- */
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    /* margin: auto 0px; */
+    height: 301px;
     background-color: #3C2313;
-    border-radius: 15px;
-    max-height: 34px;
-    gap: 10px;
-} */
-/* .footer1{ */
-/* display: flex; */
-/* justify-content: center;
-    flex-wrap: wrap;
-margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footerd{
+    display: flex;
     flex-direction: column;
-} */
+    gap: 20px;
+}
+.footer1 {
+    max-width: 269px;
+    max-height: 66px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.footer1 p{
+    font-size: 10px;
+    color: #8A8787;
+}
+.footer1>div{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    
+}
+.divmedio>h2{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer1 img {
+    width: 66px;
+    height: 66px;
+
+}
+
+.pie {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: #FFFFFF;
+    background-color: #222222;
+}
+.imgfooter{
+    width: 166px;
+    height: 23px;
+    padding-top: 20px;
+}
 /* ------------------------@media------------- */
 @media (max-width: 800px) {
     .top {
@@ -397,6 +403,11 @@ margin: auto;
         justify-content: center;
     }
 
+    .footer {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
     /* -------------icono de 3 lineas--------- */
     .hamburguesa {
         display: block;
@@ -412,11 +423,13 @@ margin: auto;
         position: absolute;
     }
 }
+
 @media (max-width: 360px) {
-    .topfooter{
+    .topfooter {
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
-}
+        padding-top: 10px;
+    }
 }
