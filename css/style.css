@@ -368,6 +368,7 @@ input {
 }
 
 .pie {
+    max-width: 1024px;
     display: flex;
     justify-content: center;
     font-size: 10px;
@@ -377,7 +378,7 @@ input {
 .imgfooter{
     width: 166px;
     height: 23px;
-    padding-top: 20px;
+    margin-right: 20px;
 }
 /* ------------------------@media------------- */
 @media (max-width: 800px) {
@@ -431,5 +432,9 @@ input {
         align-content: center;
         justify-content: center;
         padding-top: 10px;
+    }
+    .imgfooter{
+        padding-top: 20px;
+
     }
 }
